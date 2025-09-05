@@ -1,0 +1,56 @@
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database (if using SQLite for local dev)
+*.db
+*.sqlite3
+
+# Coverage / testing
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+.junit.xml
+
+# Pytest
+.pytest_cache/
+
+# MyPy / Pyright
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyright/
+
+# FastAPI specific (if using uvicorn reload pid)
+*.pid
