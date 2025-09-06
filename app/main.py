@@ -17,4 +17,8 @@ app = FastAPI(
 def read_root():
     return {"message": "🚀 FastAPI is running!"}
 
+@app.get("/ping")
+def read_root():
+    return {"message": "🚀 FastAPI is running!"}
+
 app.include_router(qrcode.router, prefix= "/v1", tags=["QR Code"])
