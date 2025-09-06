@@ -12,6 +12,7 @@ ecdsa==0.19.1
 email_validator==2.2.0
 fastapi==0.116.1
 greenlet==3.2.4
+gunicorn==23.0.0
 h11==0.16.0
 idna==3.10
 imageio==2.37.0
